@@ -1,3 +1,5 @@
+"use client"
+import Blog from "@/components/home/Blog";
 import { Collection } from "@/components/home/Collection";
 import Content from "@/components/home/Content";
 import Hero from "@/components/home/Hero";
@@ -16,6 +18,7 @@ export default function Home() {
       <Collection />
       <Content />
       <Testimonials />
+      <Blog/>
     </div>
   );
 }
